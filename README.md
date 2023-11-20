@@ -1,5 +1,7 @@
 # NormFAAE
+
 NormFAAE: A Filter-Augmented Auto-Encoder with Learnable Normalization for Robust Multivariate Time Series Anomaly Detection
+
 The main contributions of NormFAAE are as follows:
   1. A filter-augmented auto-encoder framework with learnable normalization is proposed.
   2. A deep hybrid normalization module is proposed.
