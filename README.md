@@ -2,19 +2,21 @@
 NormFAAE: A Filter-Augmented Auto-Encoder with Learnable Normalization for Robust Multivariate Time Series Anomaly Detection
 
 The main contributions of NormFAAE are as follows:
-  1. A multivariate time series anomaly detection method insensitive to contaminated data.
-  2. A deep hybrid learnable normalization module initialized with data distribution.
-  3. A filter-augmented auto-encoder with dual-phase task and alternative training.
+1.A multivariate time series anomaly detection method insensitive to contaminated data.
+
+2.A deep hybrid learnable normalization module initialized with data distribution.
+
+3.A filter-augmented auto-encoder with dual-phase task and alternative training.
 
 ![image](https://github.com/MachineLearning921/NormFAAE/assets/151547001/3b345d25-824f-49f5-964e-fb6f368071a0)
 
-Free access to the article (before January 19, 2024): https://authors.elsevier.com/c/1iAra3BBjKnvto
-
 
 ## Get Started
-1. Requirements: Python 3.8, PyTorch 1.12. 
-2. Download data. You can obtain four benchmarks from [Google Cloud](https://drive.google.com/drive/folders/1gisthCoE-RrKJ0j3KPV7xiibhHWT9qRm?usp=sharing). **All the datasets are well pre-processed**. For the SWaT dataset, you can apply for it by following its official tutorial.
-3. Train and evaluate. You can reproduce the experiment results as follows:
+1.Requirements: Python 3.8, PyTorch 1.12. 
+
+2.Download data. You can obtain four benchmarks from [Google Cloud](https://drive.google.com/drive/folders/1gisthCoE-RrKJ0j3KPV7xiibhHWT9qRm?usp=sharing). **All the datasets are well pre-processed**. For the SWaT dataset, you can apply for it by following its official tutorial.
+
+3.Train and evaluate. You can reproduce the experiment results as follows:
 ```bash
 python main.py --data 'SWAT'
 python main.py --data 'SMD'
